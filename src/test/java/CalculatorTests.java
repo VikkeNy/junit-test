@@ -18,4 +18,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
         assertEquals(5, result);
     }
+    @Test
+    void testMultiplication() {
+        int result = calculator.mult(4, 5);
+        
+        assertEquals(20, result);
+    }
 }
