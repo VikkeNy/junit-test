@@ -10,4 +10,5 @@ public class Calculator {
     public int mult(int a, int b) {
         return a*b;
     }
+    public int div2(int c, int d) { return c/d;}
 }
