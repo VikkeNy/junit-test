@@ -10,4 +10,11 @@ public class GreetingTests {
 
         assertEquals(true, result);
     }
+
+    @Test
+    void testGreetingsFalsePositive() {
+        boolean result = greetings.containsGreeting("Goodbye Earthlings!");
+
+        assertEquals(false, result);
+    }
 }
