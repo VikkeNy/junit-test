@@ -29,4 +29,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         int result = calculator.div2(2,2);
         assertEquals(1, result);
     }
+    @Test
+        void testSquareRoot(){
+        double result = calculator.squareRoot(9);
+        assertEquals(3,result);
+    }
 }
