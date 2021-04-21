@@ -24,4 +24,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         
         assertEquals(20, result);
     }
+    @Test
+        void TestDivision(){
+        int result = calculator.div2(2,2);
+        assertEquals(1, result);
+    }
 }
